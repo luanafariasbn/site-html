@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Vídeos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+     <!-- Carregamento da biblioteca bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <!-- Bibliotecas JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <style>
+            h3{color: #570614; font-size: 21px}
+              .jumbotron{background-image: url(img/cabeçalho.gif);
+                        background-color: black;
+                       background-position:center;
+                       background-repeat: initial;
+                        background-size: calc; }
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="jumbotron.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="#">Arctic Monkeys</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu do site -->
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active" style="margin-right: 10px;">
+                        <a class="nav-item" href="index.html">Home</a>
+                    </li>
+                    
+                    <li class="nav-item" style="margin-right: 10px;">
+                    
+                    <a class="nav-item" href="artista.html">
+                        Sobre o artista
+                    </a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-item" href="musicas.html">
+                            Músicas
+                </a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-item" href="videos.html">
+                            Vídeos
+                        </a>
+                    </li>
+                </ul> 
+            </div>
+        </nav>
+         <main role="main">
+
+            <!-- Cabeçalho -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h2 class="display-3">
+                        <font size="8" color="#ffffff">
+                             Vídeos
+                        </font>
+                    </h2>
+                </div>
+            </div>
+            <div class="container">
+           
+                   <div class="row">
+                       
+                       <div class="col-md-6">
+                           
+                           <div > <h3>whyd you only call me when youre high?</h3>
+                            <video id="whydyouonlycallmewhenyourehigh" width="100%" height="100%" controls preload> 
+                                <source src="video/arctic-monkeys-whyd-you-only-call-me-when-youre-high-official-video.mp4" type="video/mp4"/>
+                                      Video não suportado
+                            </video></div>
+                           <br/>
+                           <div> <h3>snap out of it </h3> 
+                              <video id="snapoutofi" width="100%" height="100%" controls preload> 
+                                  <source src="video/arctic-monkeys-snap-out-of-it-official-video.mp4" type="video/mp4"/>
+                                      Video não suportado
+                              </video> </div>
+                           <br/>
+                           <div> <h3>R U mine?</h3>
+                             <video id="rumine" width="100%" height="100%" controls preload>
+                                 <source src="video/arctic-monkeys-r-u-mine-official-video.mp4" type="video/mp4"/>
+                                      Video não suportado
+                             </video></div>
+                           <br/>
+                              <div> <h3>knee socks</h3>
+                            <video id="kneesockslive" width="100%" height="100%" controls preload> 
+                                <source src="video/arctic-monkeys-knee-socks-live.mp4" type="video/mp4"/>
+                                      Video não suportado
+                            </video></div>
+                       </div>
+                           <div class="col-md-6">
+                           
+                           <div> <h3>i wanna be yours</h3>
+                            <video id="iwannabeyourssessionacoustiqueouifm" width="100%" height="100%" controls preload> 
+                                <source src="video/arctic-monkeys-i-wanna-be-yours-session-acoustique-oui-fm.mp4" type="video/mp4"/>
+                                      Video não suportado
+                            </video></div>
+                           <br/>
+                           <div> <h3>fluorescent adolescent</h3>
+                            <video id="arcticmonkeysfluorescentadolescent" width="100%" height="100%" controls preload> 
+                                <source src="video/arctic-monkeys-fluorescent-adolescent-official-video.mp4" type="video/mp4"/>
+                                      Video não suportado
+                            </video></div>
+                              <br/>
+                            <div> <h3>Arabella</h3>
+                                <video id="arabella" width="100%" height="100%" controls preload> 
+                                <source src="video/arctic-monkeys-arabella-official-video.mp4" type="video/mp4"/>
+                                      Video não suportado
+                            </video></div>
+                            <br/>
+                               <div> <h3>do i wanna know?</h3>
+                                   <video id="doiwannaknow" width="100%" height="100%" controls preload>
+                                       <source src="video/arctic-monkeys-do-i-wanna-know-official-video.mp4" type="video/mp4"/>
+                                   </video></div>
+                       </div>
+                   </div>
+            </div>
+        </main>
+    </body>
+</html>
